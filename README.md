@@ -8,11 +8,11 @@ English and Arabic, built for phones. One static file, no build step.
 Open `index.html` and find `EDIT THE MENU HERE`. Each dish has:
 
 - `name` and `desc` in `en` and `ar`
-- `price` in USD, or `null` to show "–"
-- `tag: "popular"` (optional)
-- `img: "photos/whole-farrouj.jpg"` (optional) to replace the placeholder tile
+- `price` in Lebanese pounds (L.L), or `null` to show "–"
+- `tag: "popular"` or `"veg"` (optional)
 
-Put photos in a `photos/` folder. Square crops around 300×300 px work best.
+The poster strip under the header is the `POSTERS` list further down in `index.html`.
+Add a poster by adding one entry with its image (a 380 × 475 px JPEG, as a base64 data URI) and the menu section it jumps to.
 
 ## Hosting
 
